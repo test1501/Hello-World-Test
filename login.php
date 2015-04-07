@@ -13,11 +13,11 @@
 </style>
 </head>
 <body>
-<h1>Login<h1>
+<h1>LOGIN<h1>
 <form action='#' method='post'>
 <table cellspacing='5' align='center'>
-<tr><td>User name:</td><td><input type='text' name='name'/></td></tr>
-<tr><td>Password:</td><td><input type='password' name='pwd'/></td></tr>
+<tr><td>USERNAME:</td><td><input type='text' name='name'/></td></tr>
+<tr><td>PASSWORD:</td><td><input type='password' name='pwd'/></td></tr>
 <tr><td></td><td><input type='submit' name='submit' value='Submit'/></td></tr>
 </table>
 
@@ -46,7 +46,7 @@ if(isset($_POST['submit']))
  }
  else
  {
-  echo'Enter both username and password';
+  echo'PLEASE ENTER BOTH USERNAME AND PASSWORD';
  }
 }
 ?>
